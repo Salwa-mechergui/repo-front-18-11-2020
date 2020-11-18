@@ -1,0 +1,24 @@
+.header {
+    background-color: #5899f1;
+    height: 200px;
+    position: relative;
+    color: #fff;
+    margin-bottom: 100px;
+}
+
+.title {
+    padding-top: 50px;
+}
+
+.header::after {
+    position: absolute;
+    bottom: -30px;
+    left: -1px;
+    right: -1px;
+    content: '';
+    display: block;
+    height: 60px;
+    background: #5899f1;
+    transform: rotate(-1deg);
+    z-index: -1;
+}

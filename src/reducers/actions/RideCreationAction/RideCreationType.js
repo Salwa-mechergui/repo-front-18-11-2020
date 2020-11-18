@@ -1,0 +1,1 @@
+export const GET_VEHICULETYPE = "GET_VEHICULETYPE";

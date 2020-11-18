@@ -1,0 +1,29 @@
+h1 {
+    margin: 0;
+}
+
+
+.wrapper {
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+form {
+
+    width: 400px;
+    margin: auto auto;
+    padding: 20px 15px;
+}
+
+
+
+.text-right {
+    text-align: right;
+}
+
+.Button-signin {
+    margin-right: 3% !important;
+    background: #5899f1 !important;
+    color: white !important;
+
+}
